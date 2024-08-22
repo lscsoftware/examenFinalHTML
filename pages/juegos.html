@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/logo.png">
+    <title>Proyecto Final</title>
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html"><svg width="200" height="90" xmlns="http://www.w3.org/2000/svg">
+              <!-- Primer rectángulo -->
+              <rect x="45" y="5" width="80" height="50" fill="#767a81de" stroke="#2F3645" stroke-width="2"></rect>
+
+              <!-- Segundo rectángulo -->
+              <rect x="50" y="10" width="70" height="40" fill="#000000" stroke="#2F3645" stroke-width="2"></rect>
+
+              <!-- Tercer rectángulo -->
+              <rect x="75" y="55" width="20" height="10" fill="#767a81de" stroke="#2F3645" stroke-width="2"></rect>
+
+              <!-- Primer polígono -->
+              <polygon points="50 70,120 70,130 80,40 80" fill="#767a81de" stroke="#2F3645" stroke-width="2"></polygon>
+
+              <!-- Segundo polígono -->
+              <polygon points="55 72,115 72,122 78,48 78" fill="#000000" stroke="#2F3645"></polygon>
+
+              <!-- Líneas -->
+              <line x1="55" y1="19" x2="100" y2="19" stroke="transparent" stroke-width="3" class="linea-codigo"></line>
+              <line x1="55" y1="24" x2="100" y2="24" stroke="transparent" stroke-width="3" class="linea-codigo"></line>
+              <line x1="55" y1="29" x2="70" y2="29" stroke="transparent" stroke-width="3" class="linea-codigo"></line>
+              <line x1="55" y1="33" x2="115" y2="33" stroke="transparent" stroke-width="3" class="linea-codigo"></line>
+              <line x1="55" y1="38" x2="115" y2="38" stroke="transparent" stroke-width="3" class="linea-codigo"></line>
+          </svg>
+        </a>
+      <ul>
+        <li><a href="../pages/historia.html">HISTORIA</a></li>
+        <li><a href="../pages/juegos.html">JUGUEMOS</a></li>
+      </ul>
+    </nav>
+   <header>
+   <h1>JUGUEMOS UN POCO</h1>
+   </header>
+   <main class="juego">
+    <h2>Armemos el rompecabezas y veamos qué imagen es...</h2>
+    <section>
+        <div>
+            <div id="espacio1" class="zona-soltar"><p>Arrastre la imagen aquí</p></div>
+            <div id="espacio2" class="zona-soltar"><p>Arrastre la imagen aquí</p></div>
+            <div id="espacio3" class="zona-soltar"><p>Arrastre la imagen aquí</p></div>
+        </div>
+        <div id="imagenes">
+            <img src="../img/pieza3.png" id="pieza3" />
+            <img src="../img/pieza2.png" id="pieza2" />
+            <img src="../img/pieza1.png" id="pieza1" />
+        </div>
+    </section>
+    <button onclick="reinicio()">Comenzar de nuevo</button>
+    </main>
+
+   <footer>
+     <div><img src="../img/logo.png">
+       <h3>PROGRAMACIÓN <br> E <br> HISTORIA</h3>
+     </div>
+     <div>Sitio con fines evaluativos - Creado por Cristian Sguazzini</div>
+   </footer>
+
+   <script src="../js/scripts.js"></script>
+
+  </body>
+</html>
